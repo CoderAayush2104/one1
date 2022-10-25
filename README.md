@@ -1,3 +1,4 @@
 # My Ecommerce
-Frontend of a eCommerce Website
-bootrapped with joy :D
+Frontend and Backend of a eCommerce Website
+Bootstrapped with joy :D
+Backend in Django.
