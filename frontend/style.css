@@ -1,6 +1,6 @@
 .topnav {
-    background-color: #333;
-    overflow: hidden;
+  background-color: #333;
+  overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
@@ -29,27 +29,76 @@
 .topnav-right {
   float: right;
 }
+
+/*Left aligned section inside navbar*/
+.container-fluid a {
+  color: #fff;
+}
+.container-fluid a:hover {
+  color: #fff;
+}
+.navB {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.navB:hover {
+  text-shadow: 2px 2px 8px #e6ab09;
+}
+.navB span {
+  color: rgb(254, 164, 9);
+  font-weight: 700;
+}
+
+.B {
+  font-size: 1.75rem;
+}
+
+.category {
+  font-size: 1.2rem;
+  text-decoration: underline solid rgb(254, 164, 9) 3px;
+  font-weight: 600;
+}
+.category:hover {
+  border: 2px solid rgb(221, 156, 15);
+  border-radius: 0.2rem;
+  padding: 0.5em;
+  background-color: rgb(254, 164, 9);
+}
+
 .gradient-custom {
   /* fallback for old browsers */
   background: #6a11cb;
-  
+
   /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
-  
+  background: -webkit-linear-gradient(
+    to right,
+    rgba(106, 17, 203, 1),
+    rgba(37, 117, 252, 1)
+  );
+
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
-  }
-  .modal-dialog{
-    width: 400px;
-    margin: 70px auto 0;
+  background: linear-gradient(
+    to right,
+    rgba(106, 17, 203, 1),
+    rgba(37, 117, 252, 1)
+  );
 }
-.modal-dialog{ transform: scale(0.5); }
-.modal-dialog{ transform: scale(1); }
-.modal-dialog .modal-content{
-    text-align: center;
-    border: none;
+.modal-dialog {
+  width: 400px;
+  margin: 70px auto 0;
 }
-.modal-content .close{
+.modal-dialog {
+  transform: scale(0.5);
+}
+.modal-dialog {
+  transform: scale(1);
+}
+.modal-dialog .modal-content {
+  text-align: center;
+  border: none;
+}
+.modal-content .close {
   color: #fff;
   background: linear-gradient(to right, #33a3ff, #0675cf, #4cd5ff);
   font-size: 25px;
@@ -68,11 +117,11 @@
   z-index: 1;
   transition: all 0.3s;
 }
-.modal-content .close:hover{
+.modal-content .close:hover {
   color: #fff;
-  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
-.show-modal{
+.show-modal {
   color: #fff;
   background: linear-gradient(to right, #33a3ff, #0675cf, #49a6fd);
   font-size: 18px;
@@ -87,7 +136,7 @@
   transition: all 0.3s ease 0s;
 }
 .show-modal:hover,
-.show-modal:focus{
+.show-modal:focus {
   color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
   outline: none;
@@ -114,9 +163,9 @@
   border-left-width: 0px;
   border-right-width: 0px;
 }
-h5{
+h5 {
   color: white;
 }
-.p{
+.p {
   color: white;
 }
